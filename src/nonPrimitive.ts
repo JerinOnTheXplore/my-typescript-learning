@@ -27,3 +27,46 @@ let JerinNameAndRoll: [string,number] = ['Jerin', 79];
 
 let destination: [string,string,number] = ['Dhaka', 'Chattogram', 3];// 3 element bishisto ekta tuple
 
+
+///* Object , Literal & Optional Type *///
+
+// reference type : object
+
+//    const user: {
+//     organization: string;
+//     firstName: string;
+//     middleName?: string;// optional type//optional type dewar karon middleName na dileo error ashbena
+//     lastName: string;
+//     isMarried: boolean;
+//    } = {
+//      organization:"Programming Hero",
+//      firstName: "Jhankar",
+//      lastName: "Mahbub",
+//      isMarried:true,
+//    };
+
+//    user.organization= "Programming Hero Fire";
+//    console.log(user);
+
+   //jodi organization: "Programming Hero"; ekhane evabe dile value ta type hishebe dhorbe...tahole 
+   // user.organization= "Programming Hero Fire"; eta dile ar assign kore parbena
+   //** etake literal type bole */
+
+   //abar evabe jodi kori
+
+   const user: {
+    readonly organization: string;//access modifier
+    firstName: string;
+    middleName?: string;// optional type//optional type dewar karon middleName na dileo error ashbena
+    lastName: string;
+    isMarried: boolean;
+   } = {
+     organization:"Programming Hero",
+     firstName: "Jhankar",
+     lastName: "Mahbub",
+     isMarried:true,
+   };
+
+//    user.organization= "Programming Hero Fire";
+//    console.log(user);
+// tahole Cannot assign to 'organization' because it is a read-only property ...eta dekhabe...
