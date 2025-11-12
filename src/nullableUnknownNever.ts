@@ -57,3 +57,4 @@ function logMessage(msg:string): void {
 }
 
 console.log("Ami ajke Statistics er Chi-Square er math sob sesh korbo... na korle amar nam Jerin na!")//Output: Ami ajke Statistics er Chi-Square er math sob sesh korbo... na korle amar nam Jerin na !!!
+
