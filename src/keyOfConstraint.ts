@@ -34,3 +34,4 @@ const address = user["address"];
 //     return obj[key];
 // }
 // const result1 = getPropertyFromObj(user, "emni");//compile time error dey
+
